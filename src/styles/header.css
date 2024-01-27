@@ -1,0 +1,40 @@
+.clicked {
+    color: black;
+    font-weight: 600;
+}
+
+.form-1:hover ~ .border-form-1{
+    display: none;
+}
+
+.form-2-big:hover ~ .border-form-1, 
+.form-2-big:hover ~ .border-form-3 {
+    display: none;
+}
+
+.form-3:hover ~ .border-form-3,
+.form-3:hover ~ .border-form-2{
+    display: none;
+}
+
+.form-4:hover ~ .border-form-3{
+    display: none;
+}
+
+.form-2-small:hover ~ .border-form-1, 
+.form-2-small:hover ~ .border-form-2 {
+    display: none;
+}
+
+.bg-search {
+    background-image: radial-gradient(circle at center,var(--ihf-tp-q) 0%,#e61e4d 27.5%,#e31c5f 40%,#d70466 57.5%,#bd1e59 75%,#bd1e59 100%);
+}
+
+.bg-search-initial {
+    background-color: #FF385C;
+    -webkit-transition: width 1s ease-in-out;
+    -moz-transition: width 1s ease-in-out;
+    -o-transition: width 1s ease-in-out;
+    transition: width 1s ease-in-out;
+
+}

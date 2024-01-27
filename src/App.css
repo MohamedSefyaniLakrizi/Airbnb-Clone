@@ -1,38 +1,32 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'Airbnb';
+  src: local('Airbnb-Bk'), url(./assets/Airbnb-Bk.otf) format('opentype');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: 'Airbnb';
+  src: local('Airbnb-Md'), url(./assets/Airbnb-Md.otf) format('opentype');
+  font-weight: 500; /* Medium weight is typically 500 */
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@font-face {
+  font-family: 'Airbnb';
+  src: local('Airbnb-Bd'), url(./assets/Airbnb-Bd.otf) format('opentype');
+  font-weight: bold;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+@font-face {
+  font-family: 'Airbnb';
+  src: local('Airbnb-Lt'), url(./assets/Airbnb-Lt.otf) format('opentype');
+  font-weight: 300; /* Lighter weight is typically 300 */
 }
 
-.App-link {
-  color: #61dafb;
+@font-face {
+  font-family: 'Airbnb';
+  src: local('Airbnb-Blk'), url(./assets/Airbnb-Blk.otf) format('opentype');
+  font-weight: 900;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+body {
+  font-family: 'Airbnb', sans-serif; /* Use one of the custom fonts as the default */
 }
