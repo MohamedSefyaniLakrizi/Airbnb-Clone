@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 
-function Region({ text, imgSrc, handleClickCheckIn }){
+function Region({ text, imgSrc, handleClickWho, setInputValue }){
     const handleClick = () => {
         const input = document.getElementById('search_destination');
         input.classList.add('font-normal');
@@ -29,10 +29,8 @@ function Region({ text, imgSrc, handleClickCheckIn }){
                 break;
         }
         
-        if (input) {
-            input.value = regionName;
-        }
-        handleClickCheckIn();
+        setInputValue(regionName);
+        handleClickWho();
 
     }
 

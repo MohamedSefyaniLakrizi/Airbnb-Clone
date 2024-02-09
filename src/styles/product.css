@@ -1,0 +1,7 @@
+.fill-svg-heart {
+    fill: rgba(0, 0, 0, 0.5);
+}
+
+.bg-gradient {
+    background: linear-gradient(to top right,#f1f1f1 0%,#ffffff 11%,#ffffff 70%,#efefef 94%)
+}
