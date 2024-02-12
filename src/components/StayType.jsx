@@ -100,7 +100,7 @@ function StayType() {
         ${isAtExtremeLeft ? "md:hidden" : ""}
         `}
       >
-        <div className="w-10 h-full gradient-left" />
+        <div className="w-10 h-full bg-gradient-to-r from-white via-30% via-slate-50 to-transparent" />
         <div className="w-8 h-full bg-white flex flex-col justify-center items-center overflow-visible">
           <div
             onClick={goRight}
@@ -235,7 +235,7 @@ function StayType() {
         ${isAtExtremeRight ? "md:hidden" : ""}
         `}
       >
-        <div className="w-10 h-full gradient-right" />
+        <div className="w-10 h-full bg-gradient-to-l from-white via-30% via-slate-50 to-transparent" />
         <div className="w-8 h-full bg-white flex flex-col justify-center items-center overflow-visible">
           <div
             onClick={goLeft}

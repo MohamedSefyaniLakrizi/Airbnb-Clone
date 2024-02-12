@@ -418,7 +418,7 @@ function Header() {
                 </p>
                 <div
                   id="where_clicked"
-                  className="hidden absolute rounded-3xl bg-white left-0 shadow-lg -bottom-[510px] w-[478px] h-[498px]"
+                  className="hidden absolute z-[100] rounded-3xl bg-white left-0 shadow-lg -bottom-[510px] w-[478px] h-[498px]"
                 >
                   <div className="py-5 px-10">
                     <div className="pt-8">
@@ -501,7 +501,7 @@ function Header() {
                 </p>
                 <div
                   id="check_in_clicked"
-                  className="hidden absolute rounded-3xl bg-white left-0 shadow-lg -bottom-[510px] w-full h-[555px] top-[76px]"
+                  className="hidden absolute rounded-3xl z-[100] bg-white left-0 shadow-lg -bottom-[510px] w-full h-[555px] top-[76px]"
                 >
                   <div className="py-5 px-10 h-full">
                     <div className="pt-8">
@@ -563,7 +563,7 @@ function Header() {
                 </p>
                 <div
                   id="who_clicked"
-                  className={`absolute rounded-3xl bg-white right-0 shadow-lg -bottom-[407px] w-[406px] h-[395px] ${
+                  className={`absolute rounded-3xl z-[199] bg-white right-0 shadow-lg -bottom-[407px] w-[406px] h-[395px] ${
                     who ? "" : "hidden"
                   }`}
                 >
@@ -639,8 +639,8 @@ function Header() {
             </div>
           </div>
         </div>
-        <div className="w-10 md:w-[102px] items-center justify-center">
-          <div className="flex md:hidden w-10 h-10 rounded-full border border-gray-500 flex items-center justify-center">
+        <div className="w-10 flex md:w-[102px] items-center justify-center">
+          <div className="md:hidden w-10 h-10 rounded-full border border-gray-500 flex items-center justify-center">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 32 32"

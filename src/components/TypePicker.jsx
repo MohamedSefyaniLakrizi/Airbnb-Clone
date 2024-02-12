@@ -4,7 +4,7 @@ import "../output.css";
 
 function TypePicker() {
   return (
-    <div className="flex flex-row items-center shadow-sm bg-white justify-center w-full md:pt-3 h-[90px] sticky top-[80px] lg:px-10 xl:px-20 gap-4 z-50">
+    <div className="flex flex-row items-center shadow-sm bg-white z-20 justify-center w-full md:pt-3 h-[90px] sticky top-[80px] lg:px-10 xl:px-20 gap-4">
       <StayType />
       <div className="hidden md:block">
         <button className="px-4 py-2 text-xs h-12 rounded-xl border border-gray-300 flex gap-2 items-center">
