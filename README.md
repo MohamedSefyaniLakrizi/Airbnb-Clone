@@ -1,71 +1,43 @@
-# Getting Started with Create React App
+# Airbnb Clone
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This website is a direct clone for Airbnb.com, altough most of the website is static, the search bar is fully functional and redirects to the official airbnb website and therefore usable.
 
-## Available Scripts
+![airbnb](https://github.com/MohamedSefyaniLakrizi/Airbnb-Clone/assets/102101395/e83eafd7-d0cf-4e28-add1-96702a8cced5)
 
-In the project directory, you can run:
 
-### `npm start`
+## Tech Stack
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This website uses mainly React and Tailwind CSS. Due to how small the project is, I opted to not use any backend for the project and store a JSON holding all the data in the frontend directly.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Features of the website
 
-### `npm test`
+### 1- Popup
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+The website has a responsive popup that use different images and size depending on screen size
 
-### `npm run build`
+![image](https://github.com/MohamedSefyaniLakrizi/Airbnb-Clone/assets/102101395/69debaf5-6937-4eac-9af3-00eab173944d)
+![image](https://github.com/MohamedSefyaniLakrizi/Airbnb-Clone/assets/102101395/4ce7d552-f66d-4e24-9689-1373fcb2dbe2)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 2- Search bar
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+The search bar can be expended or retracted depending on Y position, but if clicked when it is retracted it expands again
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![search](https://github.com/MohamedSefyaniLakrizi/Airbnb-Clone/assets/102101395/baf6df5d-ebdb-446c-9afc-54dd58a4356e)
 
-### `npm run eject`
+## 3- Stay
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Each stay has an image carousel that can be browsed either from the buttons or by swiping on mobile view
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+![stay](https://github.com/MohamedSefyaniLakrizi/Airbnb-Clone/assets/102101395/304bd958-2107-458c-a852-6027636e523c)
+![stay_mobile](https://github.com/MohamedSefyaniLakrizi/Airbnb-Clone/assets/102101395/0540e975-d9a5-481f-a221-c26fe7f5806f)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 4- Responsiveness
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The website is fully responsive and behaves in the same way as the official website.
 
-## Learn More
+![responsive_airbnb](https://github.com/MohamedSefyaniLakrizi/Airbnb-Clone/assets/102101395/6b6854b9-53ff-43f1-aec1-ce71eaacfff7)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Live website
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Here is a link to the live website https://mohamedsefyani-airbnbclone.web.app/
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# Airbnb-Clone
