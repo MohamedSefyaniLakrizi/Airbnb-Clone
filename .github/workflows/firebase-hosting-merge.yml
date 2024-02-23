@@ -18,3 +18,5 @@ jobs:
           firebaseServiceAccount: "${{ secrets.FIREBASE_SERVICE_ACCOUNT_MOHAMEDSEFYANIPORTFOLIO }}"
           channelId: live
           projectId: mohamedsefyaniportfolio
+env:
+  CI: false
