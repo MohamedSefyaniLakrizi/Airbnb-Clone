@@ -103,7 +103,7 @@ function Footer() {
   return (
     <footer className="bg-[#f7f7f7] w-full">
       <div className=" 3xl:items-center flex flex-col">
-        <div className="flex flex-col w-full gap-2 p-5 md:p-10 lg:p-20 3xl:p-0 3xl:py-10 3xl:w-[60vw]">
+        <div className="flex w-full flex-col gap-2 p-5 md:p-10 lg:p-20 3xl:p-0 3xl:py-10 3xl:w-[60vw]">
           <h1 className="text-xl font-medium">
             Inspiration for future gateways
           </h1>
