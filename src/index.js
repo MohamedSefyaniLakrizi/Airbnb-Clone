@@ -1,12 +1,26 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import PopUp from './components/PopUp';
-import Header from './components/Header';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import PopUp from "./components/PopUp";
+import Header from "./components/Header";
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const firebaseConfig = {
+  apiKey: "AIzaSyAeG7BWiXXRh_qo8T6ligUCDIJQz4xibuM",
+  authDomain: "mohamedsefyaniportfolio.firebaseapp.com",
+  projectId: "mohamedsefyaniportfolio",
+  storageBucket: "mohamedsefyaniportfolio.appspot.com",
+  messagingSenderId: "459317818195",
+  appId: "1:459317818195:web:78d309dbd9c4444b4867a6",
+  measurementId: "G-0698RGWW7G",
+};
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <Header />
