@@ -279,7 +279,7 @@ function Header() {
       {isExpanded && (
         <div className="fixed z-20 inset-0 bg-black opacity-30"></div>
       )}
-      <div className="hidden xl:flex bg-[#f7f7f7] h-[64px] shadow-inner justify-center items-center">
+      <div className="hidden xl:flex h-[64px] bg-[#f7f7f7] shadow-inner justify-center items-center">
         <a href="/" className=" font-medium text-[15px] underline">
           Learn about Guest Favorites, the most loved homes on Airbnb
         </a>
