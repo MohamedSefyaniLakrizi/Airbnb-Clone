@@ -6,7 +6,6 @@ import reportWebVitals from "./reportWebVitals";
 import PopUp from "./components/PopUp";
 import Header from "./components/Header";
 import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
 
 const firebaseConfig = {
   apiKey: "AIzaSyAeG7BWiXXRh_qo8T6ligUCDIJQz4xibuM",
@@ -17,8 +16,7 @@ const firebaseConfig = {
   appId: "1:459317818195:web:78d309dbd9c4444b4867a6",
   measurementId: "G-0698RGWW7G",
 };
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
+initializeApp(firebaseConfig);
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
