@@ -93,7 +93,7 @@ function PopUp() {
           </p>
           <a
             href="/"
-            className="bg-[#222222] hover:bg-black focus:scale-90 transition-all duration-300 text-white font-semibold w-[88vw] md:w-auto py-[10px] rounded-lg text-sm md:text-lg md:py-4 md:px-8 text-center"
+            className=" hover:bg-black bg-[#222222]  focus:scale-90 transition-all duration-300 text-white font-semibold w-[88vw] md:w-auto py-[10px] rounded-lg text-sm md:text-lg md:py-4 md:px-8 text-center"
           >
             Start exploring
           </a>
